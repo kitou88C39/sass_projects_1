@@ -2,6 +2,8 @@
 $mainColor: pink;
 $leftContentColor: orange;
 $leftTextColor: cornsilk;
+$rightContentColor: aquamarine;
+$rightTextColor: cornsilk;
 
 * {
   margin: 0;
@@ -47,6 +49,33 @@ main {
         font-size: 65px;
         color: $mainColor;
       }
+    }
+  }
+
+  .rightContent {
+    width: 300px;
+    position: relative;
+
+    p {
+      position: absolute;
+      top: 120px;
+      height: 400px;
+      border-radius: 10px;
+      background-color: $rightContentColor;
+      padding: 15px;
+      color: $rightTextColor;
+    }
+    button {
+      position: absolute;
+      top: 300px;
+      left: 30px;
+      padding: 13px;
+      border: none;
+      border-radius: 3px;
+      background-color: gray;
+      color: $rightTextColor;
+      cursor: pointer;
+      transition: all 0.2s;
     }
   }
 }
