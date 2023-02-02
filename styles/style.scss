@@ -1,6 +1,7 @@
 //変数を宣言
 $mainColor: pink;
 $leftContentColor: orange;
+$leftTextColor: cornsilk;
 
 * {
   margin: 0;
@@ -30,5 +31,22 @@ main {
     width: 650px;
     height: 470px;
     background-color: $leftContentColor;
+    border-radius: 10px;
+    margin-right: 20px;
+    position: relative;
+
+    h2 {
+      color: $leftTextColor;
+      position: absolute;
+      top: 40px;
+      right: 30px;
+      font-size: 50px;
+      cursor: pointer;
+      transition: all 0.2s;
+      &:hover {
+        font-size: 65px;
+        color: $mainColor;
+      }
+    }
   }
 }
