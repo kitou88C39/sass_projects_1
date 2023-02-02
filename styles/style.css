@@ -42,4 +42,29 @@ main {
 .content .leftContent h2:hover {
   font-size: 65px;
   color: pink;
+}
+.content .rightContent {
+  width: 300px;
+  position: relative;
+}
+.content .rightContent p {
+  position: absolute;
+  top: 120px;
+  height: 400px;
+  border-radius: 10px;
+  background-color: aquamarine;
+  padding: 15px;
+  color: cornsilk;
+}
+.content .rightContent button {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  padding: 13px;
+  border: none;
+  border-radius: 3px;
+  background-color: gray;
+  color: cornsilk;
+  cursor: pointer;
+  transition: all 0.2s;
 }/*# sourceMappingURL=style.css.map */
