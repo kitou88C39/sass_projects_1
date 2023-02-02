@@ -1,4 +1,6 @@
-$mainColor: rgb(246, 124, 211);
+//変数を宣言
+$mainColor: pink;
+$leftContentColor: orange;
 
 * {
   margin: 0;
@@ -19,4 +21,14 @@ main {
   justify-content: center;
   align-items: center;
   background-color: $mainColor;
+}
+
+.content {
+  display: flex;
+  //入れ子ができる
+  .leftContent {
+    width: 650px;
+    height: 470px;
+    background-color: $leftContentColor;
+  }
 }
