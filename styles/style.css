@@ -67,4 +67,30 @@ main {
   color: cornsilk;
   cursor: pointer;
   transition: all 0.2s;
+}
+.content .rightContent button:hover {
+  font-size: 20px;
+  color: pink;
+}
+.content .rightContent .area_article {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid white;
+}
+.content .rightContent .area_article .text {
+  margin: 20px 0 0;
+}
+.content .rightContent .area_article .text .date {
+  font-size: 12px;
+  color: white;
+}
+.content .rightContent .area_article .text .title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 12px 0 0;
+}
+.content .rightContent .area_article .text .description {
+  font-size: 14px;
+  line-height: 1.7em;
+  margin: 12px 0 0;
 }/*# sourceMappingURL=style.css.map */
